@@ -2,7 +2,7 @@
 
 set -e
 
-apt install devscripts fakeroot python-bloom
+apt --yes install devscripts fakeroot python-bloom
 
 NOW=`date +'%Y%m%d-%H%M%S'`
 bloom-generate rosdebian \

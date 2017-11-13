@@ -1,5 +1,5 @@
 name: bloom-generate
-version: 0.0.1
+version: 0.0.3
 description: generate debian package for ROS package
 properties:
   os_name:
