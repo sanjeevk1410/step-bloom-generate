@@ -4,6 +4,7 @@ set -e
 
 apt --yes install devscripts fakeroot python-bloom
 
+rm -rf debian
 NOW=`date -u +'%Y%m%dT%H%M%SZ'`
 bloom-generate rosdebian \
                --os-name ${WERCKER_BLOOM_GENERATE_OS_NAME} \
